@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int clave,minutos;
+    cin>>clave;
+    cin>>minutos;
+    switch(clave){
+    case 12:cout<<minutos*2;
+        break;
+    case 15:cout<<minutos*2.2;
+        break;
+    case 18:cout<<minutos*4.5;
+        break;
+    case 19:cout<<minutos*3.5;
+        break;
+    case 23:cout<<minutos*6;
+    break;
+    case 25:cout<<minutos*6;
+    break;
+    case 29:cout<<minutos*5;
+    break;
+}
+}
